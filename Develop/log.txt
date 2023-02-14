@@ -1,0 +1,2 @@
+{"title":"README build","languages":["CSS","HTML","JavaScript"],"communication":"slack","years":"1 year"}
+{"title":"README","what":"a readme file","why":"to provide a template for a README","how":"when they are making a project","GitHub username":"connbstro56","email":"constroh@gmail.com","Description":"This was a way for someone to make a readme file quickly","Used":["CSS","HTML","JavaScript","Node.js"]}

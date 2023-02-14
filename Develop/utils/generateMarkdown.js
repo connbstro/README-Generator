@@ -98,9 +98,7 @@ function generateMarkdown(data) {
   ## **Questions**
   How to reach me with questions or comments:
   
-  [My GitHub Profile](https://github.com/${
-    data.gitHub
-  })&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;${data.email}&nbsp;
+  [My GitHub Profile](https://github.com/${data.gitHub})&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;${data.email}&nbsp;
 
   <br/>
 

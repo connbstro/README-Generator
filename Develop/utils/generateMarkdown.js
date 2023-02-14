@@ -37,8 +37,9 @@ function renderLicenseSection(license) {
   if (license === "None") {
     licenseSection = "";
   } else {
-    licenseSection = "License: "
-  } return licenseSection;
+    licenseSection = "License: ";
+  }
+  return licenseSection;
 }
 
 // Function that generates markdown for README //
@@ -95,9 +96,11 @@ function generateMarkdown(data) {
   <br/>
 
   ## **Questions**
-  Feel free to reach out with questions or comments regarding ${data.title}!
+  How to reach me with questions or comments:
   
-  [My GitHub Profile](https://github.com/${ data.Github })&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;${data.email}&nbsp;
+  [My GitHub Profile](https://github.com/${
+    data.github
+  })&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;${data.email}&nbsp;
 
   <br/>
 

@@ -38,7 +38,7 @@ const questions = [
     type: "checkbox",
     name: "languages",
     message: "What did you use to make your project?",
-    choices: ["CSS ", "HTML ", "JavaScript ", "Node.js "],
+    choices: [" CSS", " HTML", " JavaScript", " Node.js"],
     validate: (languagesInput) => {
       if (languagesInput) {
         return true;
@@ -121,7 +121,7 @@ const questions = [
   {
     // GitHub username //
     type: "input",
-    name: "GitHub",
+    name: "gitHub",
     message: "What is your GitHub username?",
     validate: (githubInput) => {
       if (githubInput) {

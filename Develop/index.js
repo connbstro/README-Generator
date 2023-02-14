@@ -72,19 +72,6 @@ const questions = [
     },
   },
   {
-    type: "input",
-    name: "contributing",
-    message: "Please describe how others can contribute to your project:",
-    validate: (contributingInput) => {
-      if (contributingInput) {
-        return true;
-      } else {
-        console.log("Please describe how to use your project");
-        return false;
-      }
-    },
-  },
-  {
     type: "list",
     name: "license",
     message: "What license should your project have?",
@@ -97,6 +84,44 @@ const questions = [
         return false;
       }
     },
+  },
+  {
+    type: "confirm",
+    name: "showContributor",
+    message:
+      "Would you like to provide credit or add contributors to this project?",
+    default: true,
+  },
+  {
+    type: "input",
+    name: "contributors",
+    message: "Please enter credit and/or contributors:",
+    when: ({ showContributor }) => {
+      if (showContributor) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
+  // {
+  //   type: "input",
+  //   name: "contributing",
+  //   message: "Please describe how others can contribute to your project:",
+  //   validate: (contributingInput) => {
+  //     if (contributingInput) {
+  //       return true;
+  //     } else {
+  //       console.log("Please describe how to use your project");
+  //       return false;
+  //     }
+  //   },
+  // },
+  {
+    type: "input",
+    name: "tests",
+    message:
+      "What commands are used to run tests? (if none please enter 'N/A') ",
   },
   {
     type: "input",
@@ -114,7 +139,7 @@ const questions = [
   {
     type: "input",
     name: "email",
-    message: "Enter your emai address",
+    message: "Enter your email address",
     validate: (emailInput) => {
       if (emailInput) {
         return true;
@@ -144,13 +169,12 @@ function writeToFile(fileContent) {
 
 // Initialize Application Function //
 function init() {
-  inquirer.prompt(questions).then(function(userInput) {
+  inquirer.prompt(questions).then(function (userInput) {
     console.log(userInput);
     const inputData = generateMarkdown(userInput);
     writeToFile(inputData);
-  })
+  });
 }
-
 
 // Initialize Application Called Function //
 init();

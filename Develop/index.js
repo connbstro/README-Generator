@@ -6,6 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // User Input Questions //
 const questions = [
   {
+    // Title //
     type: "input",
     name: "title",
     message: "What is the title of your project?",
@@ -19,6 +20,7 @@ const questions = [
     },
   },
   {
+    // Description //
     type: "input",
     name: "description",
     message: "Please write a description for your project:",
@@ -32,6 +34,7 @@ const questions = [
     },
   },
   {
+    // Languages //
     type: "checkbox",
     name: "languages",
     message: "What did you use to make your project?",
@@ -46,6 +49,7 @@ const questions = [
     },
   },
   {
+    // Installation //
     type: "input",
     name: "installation",
     message: "What are the steps required to install your project?",
@@ -59,6 +63,7 @@ const questions = [
     },
   },
   {
+    // Usage //
     type: "input",
     name: "usage",
     message: "How do you use this project?",
@@ -72,6 +77,7 @@ const questions = [
     },
   },
   {
+    // License //
     type: "list",
     name: "license",
     message: "What license should your project have?",
@@ -86,6 +92,7 @@ const questions = [
     },
   },
   {
+    // Contributors //
     type: "confirm",
     name: "showContributor",
     message:
@@ -104,26 +111,15 @@ const questions = [
       }
     },
   },
-  // {
-  //   type: "input",
-  //   name: "contributing",
-  //   message: "Please describe how others can contribute to your project:",
-  //   validate: (contributingInput) => {
-  //     if (contributingInput) {
-  //       return true;
-  //     } else {
-  //       console.log("Please describe how to use your project");
-  //       return false;
-  //     }
-  //   },
-  // },
   {
+    // Tests //
     type: "input",
     name: "tests",
     message:
       "What commands are used to run tests? (if none please enter 'N/A') ",
   },
   {
+    // GitHub username //
     type: "input",
     name: "GitHub",
     message: "What is your GitHub username?",
@@ -137,6 +133,7 @@ const questions = [
     },
   },
   {
+    // Email Username //
     type: "input",
     name: "email",
     message: "Enter your email address",
@@ -176,5 +173,5 @@ function init() {
   });
 }
 
-// Initialize Application Called Function //
+// Called Initialize Function //
 init();

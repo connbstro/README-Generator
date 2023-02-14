@@ -143,5 +143,14 @@ function writeToFile(fileContent) {
 }
 
 // Initialize Application Function //
+function init() {
+  inquirer.prompt(questions).then(function(userInput) {
+    console.log(userInput);
+    const inputData = generateMarkdown(userInput);
+    writeToFile(inputData);
+  })
+}
+
 
 // Initialize Application Called Function //
+init();

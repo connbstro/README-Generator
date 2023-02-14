@@ -1,4 +1,3 @@
-
   # README-professional-generator
 
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -25,7 +24,7 @@
   <br/>
 
   ## **Build**
-  + JavaScript ,Node.js 
+  +  JavaScript, Node.js
 
   <br/>
 
@@ -35,12 +34,12 @@
   <br/>
   
   ## **Usage**
-  + Run the application in your command-line by typing "node index" after navigating to the correct folder and pressing enter. Begin to answer the prompts/questions and the generated "README.md" file will appear in the root of your folder.
+  + * Run the application in your command-line by typing "node index" after navigating to the correct folder and pressing enter. Begin to answer the prompts/questions and the generated "README.md" file will appear in the root of your folder.
   
   <br/>
   
   ## **Contributors**
-  + "inquirer.js" npm package: https://www.npmjs.com/package/inquirer
+  +  "inquirer.js" npm package: https://www.npmjs.com/package/inquirer
 
   <br/>
 
@@ -50,9 +49,9 @@
   <br/>
 
   ## **Questions**
-  How to reach me with questions or comments: 
+  How to reach me with questions or comments:
   
-  [My GitHub Profile](https://github.com/${data.Github})&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;connbstro56@yahoo.com&nbsp;
+  [My GitHub Profile](https://github.com/undefined)&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;constroh@gmail.com&nbsp;
 
   <br/>
 

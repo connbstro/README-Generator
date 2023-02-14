@@ -66,9 +66,12 @@ function generateMarkdown(data) {
 
   ## **Build**
   + ${data.languages}
+
   <br/>
+
   ## **Installation** 
   + ${data.installation} 
+
   <br/>
   
   ## **Usage**
@@ -89,9 +92,7 @@ function generateMarkdown(data) {
   ## **Questions**
   Feel free to reach out with questions or comments regarding ${data.title}!
   
-  [My GitHub Profile](https://github.com/${
-    data.github
-  })&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;${data.email}&nbsp;
+  [My GitHub Profile](https://github.com/${ data.Github })&nbsp; 📂  &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;${data.email}&nbsp;
 
   <br/>
 

@@ -25,27 +25,27 @@
   <br/>
 
   ## **Build**
-  +  JavaScript, Node.js
+  JavaScript, Node.js
 
   <br/>
 
   ## **Installation** 
-  + npm install inquirer 
+  Git clone the “README-professoinal-generator” and then use “npm install inquirer” 
 
   <br/>
   
   ## **Usage**
-  + After installation is complete, run the application in your command-line by typing "node index" after navigating to the correct folder and hitting enter. Begin to answer the prompts/questions and the generated "README.md" file will appear in the root of your folder.
+  After installation is complete, run the application in your command-line by typing "node index" after navigating to the correct folder and hitting enter. Begin to answer the prompts/questions and the generated "README.md" file will appear in the root of your folder.
   
   <br/>
   
   ## **Contributors**
-  + "inquirer.js" npm package: https://www.npmjs.com/package/inquirer
+  "inquirer.js" npm package: https://www.npmjs.com/package/inquirer
 
   <br/>
 
   ## **Tests**
-  + To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder "README-professional-generator" and run "node index.js". Answer the prompts/questions and then view the preview of the newly generated README.md file.
+  To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder "README-professional-generator" and run "node index.js". Answer the prompts/questions and then view the preview of the newly generated README.md file.
 
   <br/>
 

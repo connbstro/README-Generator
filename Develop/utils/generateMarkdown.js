@@ -71,27 +71,27 @@ function generateMarkdown(data) {
   <br/>
 
   ## **Build**
-  + ${data.languages}
+  ${data.languages}
 
   <br/>
 
   ## **Installation** 
-  + ${data.installation} 
+  ${data.installation} 
 
   <br/>
   
   ## **Usage**
-  + ${data.usage}
+  ${data.usage}
   
   <br/>
   
   ## **Contributors**
-  + ${data.contributors}
+  ${data.contributors}
 
   <br/>
 
   ## **Tests**
-  + ${data.tests}
+  ${data.tests}
 
   <br/>
 

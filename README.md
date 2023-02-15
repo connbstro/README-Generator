@@ -6,6 +6,10 @@
   ## **Description:**
   A command-line application to dynamically generate a "README.md" file containing the user's input. This README generator will allow the user to answer a series of specific questions and create a professional and complete README based on their responses to the prompts. This is a short process and will provide the developer with the ability to make their project more complete and professional, increasing the odds that another developer will want to use their app.
 
+  ## **Video Example**
+  (https://drive.google.com/file/d/1g8awS5oUSSF2yRsQrvKXuZR5yjHPCknJ/view?usp=sharing)
+  
+
   <br/>
 
   ## **Table of Contents**
